@@ -80,7 +80,7 @@ public class MapsFragment extends Fragment {
                         googleMap.addMarker(new MarkerOptions().position(farmacia4).title("Farmacia Eva Peron"));
                         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacionActual, 15));
                         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-                        ///
+                        //
                     }
                 });
     }
